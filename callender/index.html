@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container" style="border: 10px solid black;">
+        <form action="" onsubmit="load(event)" style="display: grid; justify-content:center; margin: auto; ">
+            <label for="year">Select Year</label><br>
+            <input type="text" name ="year" id="year" placeholder="Year"><br>
+            <label for="months">Select Month</label><br>
+            <input type="text" name = "months" id="months" placeholder="Month">
+            <input type="submit" value ="ok">
+        </form>
+        <h1 id ='month' style="text-align: center;"></h1>
+     <div id="weekdays">
+        <div>Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursurday</div>
+        <div>FriDay</div>
+        <div>Saturday</div>
+     </div>
+     <div id="calendar"></div>
+    </div>
+
+    <script src = "app.js"></script>
+</body>
+</html>
